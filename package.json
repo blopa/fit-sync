@@ -4,12 +4,19 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
     "bump": "ncu -u -t minor",
-    "bump-any": "ncu -u"
+    "bump-any": "ncu -u",
+    "prebuild": "expo prebuild --clean",
+    "setup-android": "turtle setup:android",
+    "build-android": "eas build -p android",
+    "build-android-local": "eas build -p android --local",
+    "submit-android": "eas submit --platform android",
+    "build-android-preview": "eas build -p android --profile preview",
+    "build-android-preview-local": "eas build -p android --profile preview --local"
   },
   "jest": {
     "preset": "jest-expo"

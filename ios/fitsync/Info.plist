@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>myapp</string>
-          <string>com.pablopirata.fitsync</string>
+          <string>com.werules.fitsync</string>
         </array>
       </dict>
     </array>

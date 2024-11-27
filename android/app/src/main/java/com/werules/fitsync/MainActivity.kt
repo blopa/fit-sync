@@ -1,4 +1,4 @@
-package com.pablopirata.fitsync
+package com.werules.fitsync
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

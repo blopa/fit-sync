@@ -1,4 +1,4 @@
-package com.pablopirata.fitsync
+package com.werules.fitsync
 
 import android.app.Application
 import android.content.res.Configuration

@@ -43,7 +43,7 @@ export default function SettingsScreen() {
             <Picker
                 placeholder="Select language"
                 value={language}
-                onChange={(value) => setLanguage(value)}
+                onChange={(value) => setLanguage(value as string)}
                 style={styles.picker}
             >
               <Picker.Item value="en" label="English" />

@@ -39,7 +39,7 @@ export default function ShareScreen() {
           <Picker
               placeholder="Select platform"
               value={selectedPlatform}
-              onChange={(value) => setSelectedPlatform(value)}
+              onChange={(value) => setSelectedPlatform(value as string)}
               style={styles.picker}
           >
             <Picker.Item value="Google Fit" label="Google Fit" />

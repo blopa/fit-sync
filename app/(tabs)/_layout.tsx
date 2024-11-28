@@ -26,35 +26,40 @@ export default function TabLayout() {
             <Tabs.Screen
                 name="index"
                 options={{
-                    title: 'Home',
+                    // title: 'Home',
+                    title: '',
                     tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
                 }}
             />
             <Tabs.Screen
                 name="migrate"
                 options={{
-                    title: 'Migrate',
+                    // title: 'Migrate',
+                    title: '',
                     tabBarIcon: ({ color }) => <TabBarIcon name="exchange" color={color} />,
                 }}
             />
             <Tabs.Screen
                 name="profile"
                 options={{
-                    title: 'Profile',
+                    // title: 'Profile',
+                    title: '',
                     tabBarIcon: ({ color }) => <TabBarIcon name="user" color={color} />,
                 }}
             />
             <Tabs.Screen
                 name="share"
                 options={{
-                    title: 'Share',
+                    // title: 'Share',
+                    title: '',
                     tabBarIcon: ({ color }) => <TabBarIcon name="share-alt" color={color} />,
                 }}
             />
             <Tabs.Screen
                 name="settings"
                 options={{
-                    title: 'Settings',
+                    // title: 'Settings',
+                    title: '',
                     tabBarIcon: ({ color }) => <TabBarIcon name="cogs" color={color} />,
                 }}
             />
